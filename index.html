@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Diego Tumonis</title>
+  <link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/a532b431dd.js" crossorigin="anonymous"></script>
+ 
+  <style>
+    body {
+      font-family: "Alegreya Sans", Serif, time;
+      font-size: 18px;
+    }
+  </style>
+  
+   
+</head>
+
+<body style="background-color: aquamarine;">
+  <header>
+    <a href="#ancla-1">Datos Personales</a>
+    <a href="#ancla-2">Objetivos</a>
+    <a href="#ancla-3">Experiencia Laboral</a>
+    <a href="#ancla-4">Formación Académica</a>
+  </header>
+  <hr>
+  <h1 style="color:blue"> Currículum Vitae de Diego José Tumonis </h1>
+  <img src=https://randomuser.me/api/portraits/men/47.jpg alt=" Imagen no compatible">
+  
+  <div class="ancla" id="ancla-1">
+    <h2> <i class="fa-solid fa-user"> </i> Datos Personales </h2>
+    <ul>
+      <li> Nombre: Diego José </li>
+      <li> Apellido: Tumonis</li>
+      <li> Fecha de nacimiento: 30/11/1979 </li>
+      <li> Lugar de nacimiento: Rosario, pcia Santa Fe </li>
+      <li> Nacionalidad: argentina </li>
+    </ul>
+
+    <div id="info" hidden>Más información
+      <ul>
+        <li>Dirección: Los Baños 348 bis</li>
+        <li>DNI: 27648720</li>
+        <li>Edad: 43</li>
+        <li>Hijos: 2</li>
+      </ul>      
+    </div>
+<button onClick="toggleHidden('#info')">
+  Mostrar/ocultar más información
+</button>
+<script>
+function toggleHidden(selector) {
+  element = document.querySelector(selector);
+  element.hidden = element.hidden ? false : true;
+}
+</script>
+   
+
+    <div class="ancla" id="ancla-2">
+     <h2><i class="fa-solid fa-magnifying-glass"></i> Objetivos: </h2>
+          <li> Desarrollarme en un ambiente de trabajo agradable y colaborativo enfocado en un objetivo común.  </li>
+    </div>
+    <div class="ancla" id="ancla-3">
+          <h2> <i class="fa-solid fa-briefcase"></i> Experiencia Laboral: </h2>
+       <ul>
+         <li> Abril 2011: Reemplazo, Profesor de educación física en Escuela Dr Luis M Drago  </li>
+         <li> Agosto 2011: Reemplazo, Profesor de educación física en Colegio del Sur - Rosario-</li>
+         <li> Abril 2012: Reemplazo en escuelas primarias-</li>
+       </ul>
+    </div>
+    <div class="ancla" id="ancla-4">
+     <h2> <i class="fa-solid fa-graduation-cap"></i> Formación Académica:  </h2>
+       <ul>
+         <li> <a href= "http://liceoavellaneda.com/"><p> Primaria y secundaria en colegio Liceo Avellaneda  </p> </a> </li>
+         <li> <a href= "https://www.isef11.com.ar/sitio/index.php/inicio-portal"><p> Terciario Profesorado de educación física en ISEF Nº11</p> </a> </li>
+         <li>	Inglés: Nivel Medio  </li>
+         <li> Especialización en el áerea de deportes en equipo </li>
+       </ul>
+    </div>
+</body >
+</html >
